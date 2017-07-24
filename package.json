@@ -1,0 +1,28 @@
+{
+  "name": "karaokeserver",
+  "version": "1.0.0",
+  "description": "Servidor de Karaoke",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Marcelo-Rodrigues/karaoke.git"
+  },
+  "keywords": [
+    "karaoke"
+  ],
+  "author": "Marcelo Rodrigues <marcelo_rod_@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Marcelo-Rodrigues/karaoke/issues"
+  },
+  "homepage": "https://github.com/Marcelo-Rodrigues/karaoke#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.81.0"
+  }
+}
